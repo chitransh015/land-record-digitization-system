@@ -2,60 +2,45 @@
 
 ## Smart India Hackathon 2026
 
-### Problem Statement
-SIH26018 - Intelligent Land Record Digitization and Validation System
+**Problem Statement:** SIH26018 – Intelligent Land Record Digitization and Validation System
 
 ## About the Project
 
-This project is a prototype system for digitizing land records.
+This project is a beginner-friendly prototype for digitizing and managing land-record information.
 
-It provides a workflow to process a land document, display structured land-record information, validate fields, assign confidence scores, send low-confidence information for human verification, save verified records, and export records.
+The system demonstrates a workflow in which a land document is uploaded, processed, converted into structured land-record information, validated, assigned confidence scores, sent for human verification when required, stored in a database, and exported as a CSV file.
 
-## Features
+## Key Features
 
-- Land document upload
-- Document preview and processing
-- Structured land-record information
-- Validation of extracted fields
-- Confidence scores
-- Human verification
-- SQLite database storage
-- Land-record dashboard
-- CSV export
+- 📄 Land document upload
+- 🖼️ PDF and image document preview
+- 📊 Structured land-record information
+- ✅ Field validation
+- 🎯 Confidence scores
+- 👨‍💼 Human verification for low-confidence information
+- 💾 SQLite database storage
+- 📋 Land-record dashboard
+- 📥 CSV export
 
-## Technologies Used
+## System Workflow
 
-- Python
-- Streamlit
-- Pandas
-- Pillow
-- PyMuPDF
-- Tesseract OCR
-- SQLite
-
-## Project Workflow
-
-Document Upload  
-↓  
-Document Processing  
-↓  
-Structured Land Record  
-↓  
-Validation  
-↓  
-Confidence Score  
-↓  
-Human Verification  
-↓  
-Database Storage  
-↓  
-Dashboard  
-↓  
+```text
+Land Document
+      ↓
+Document Upload
+      ↓
+Document Processing
+      ↓
+Structured Land Record
+      ↓
+Field Validation
+      ↓
+Confidence Score
+      ↓
+Human Verification
+      ↓
+SQLite Database
+      ↓
+Dashboard
+      ↓
 CSV Export
-
-## How to Run
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
